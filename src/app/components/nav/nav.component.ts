@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
-import { SplatService } from '../../services/splat/splat.service';
+import { SplatService } from '../../services/splat/splat.service'
 
 @Component({
   selector: 'app-nav',

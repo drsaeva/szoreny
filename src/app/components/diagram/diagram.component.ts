@@ -1,7 +1,7 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
-import * as go from 'gojs';
+import { Component, OnInit, AfterViewInit } from '@angular/core'
+import * as go from 'gojs'
 
-import { CascadeService } from '../../services/cascade/cascade.service';
+import { CascadeService } from '../../services/cascade/cascade.service'
 
 @Component({
   selector: 'app-diagram',
@@ -16,7 +16,7 @@ export class DiagramComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    let _this = this;
+    let _this = this
 
     function initgraph() {
 
