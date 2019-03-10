@@ -1,26 +1,20 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core'
-import * as go from 'gojs'
-
-import { CascadeService } from '../../services/cascade/cascade.service'
+import { Component, OnInit } from '@angular/core'
+import { Router, ActivatedRoute, ParamMap } from '@angular/router'
+import { Network } from 'vis'
 
 @Component({
   selector: 'app-diagram',
   templateUrl: './diagram.component.html',
   styleUrls: ['./diagram.component.css']
 })
-export class DiagramComponent implements OnInit, AfterViewInit {
+export class DiagramComponent implements OnInit {
 
-  constructor(private cascadeService: CascadeService) { }
+  graph: Network;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
-  ngAfterViewInit() {
-    let _this = this
-
-    function initgraph() {
-
-
-    }
-  }
 }

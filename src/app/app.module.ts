@@ -6,16 +6,18 @@ import { NavComponent } from './components/nav/nav.component'
 import { DiagramComponent } from './components/diagram/diagram.component'
 
 import { CascadeService } from './services/cascade/cascade.service'
-import { SplatService } from './services/splat/splat.service'
+import { SplatService } from './services/splat/splat.service';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    DiagramComponent
+    DiagramComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [
     CascadeService,
