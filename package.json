@@ -19,6 +19,7 @@
     "@angular/http": "^7.2.7",
     "@angular/platform-browser": "^7.2.7",
     "@angular/platform-browser-dynamic": "^7.2.7",
+    "@angular/platform-server": "^7.2.8",
     "@angular/router": "^7.2.7",
     "core-js": "^2.6.5",
     "enumify": "^1.0.4",
@@ -29,7 +30,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.13.4",
     "@angular/cli": "^7.3.4",
-    "@angular/compiler-cli": "^7.2.7",
+    "@angular/compiler-cli": "^7.2.8",
     "@angular/language-service": "^7.2.7",
     "@types/jasmine": "^2.8.16",
     "@types/jasminewd2": "^2.0.6",

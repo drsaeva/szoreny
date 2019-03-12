@@ -11,4 +11,5 @@ export interface Cascade extends Data {
   edges: Edge[]
   trait: AbilityEnum | AttributeEnum | StyleEnum
   splat: Splat
+  isSMA?: boolean
 }
