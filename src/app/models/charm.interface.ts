@@ -3,7 +3,7 @@ import { Minima } from './minima.interface'
 
 export class Charm implements Node {
   id: string
-  image: string
+  image?: string
   label: string
   level: number
   minima: Minima
